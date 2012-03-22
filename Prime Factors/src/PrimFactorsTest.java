@@ -23,7 +23,7 @@ public class PrimFactorsTest {
 	}
 	@Test
 	public void testTwo(){
-		assertEquals(list(2), Prime_Factors.getFactors(1));
+		assertEquals(list(2), Prime_Factors.getFactors(2));
 
 	}
 	private ArrayList<Integer> list(int... i) {

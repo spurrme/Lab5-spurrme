@@ -9,9 +9,12 @@ import java.util.ArrayList;
  */
 public class Prime_Factors {
 
-	public static Object getFactors(int i) {
-		// TODO Auto-generated method stub
-		return new ArrayList<Integer>();
+	public static ArrayList<Integer> getFactors(int i) {
+		ArrayList<Integer> ret = new ArrayList<Integer>();
+		if(i > 1){
+			ret.add(2);
+		}
+		return ret;
 	}
 
 }
