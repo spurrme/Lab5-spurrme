@@ -42,6 +42,10 @@ public class PrimFactorsTest {
 	public void testEight(){
 		assertEquals(list(2, 2, 2), Prime_Factors.getFactors(8));
 	}
+	@Test 
+	public void testNine(){
+		assertEquals(list(3, 3), Prime_Factors.getFactors(9));
+	}
 	private ArrayList<Integer> list(int... i) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for (Integer n : i) {
