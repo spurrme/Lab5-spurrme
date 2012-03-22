@@ -1,5 +1,7 @@
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 import org.junit.Test;
 
 
@@ -14,5 +16,9 @@ public class PrimFactorsTest {
 	@Test
 	public void testComplier(){
 		assertTrue("Does this work?", true);
+	}
+	@Test
+	public void testOne(){
+		assertEquals(new ArrayList<Integer>(), Prime_Factors.getFactors(1));
 	}
 }

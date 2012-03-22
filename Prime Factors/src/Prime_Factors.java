@@ -7,4 +7,9 @@
  */
 public class Prime_Factors {
 
+	public static Object getFactors(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
