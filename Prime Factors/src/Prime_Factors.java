@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 
 /**
  * TODO Put here a description of what this class does.
@@ -9,7 +11,7 @@ public class Prime_Factors {
 
 	public static Object getFactors(int i) {
 		// TODO Auto-generated method stub
-		return null;
+		return new ArrayList<Integer>();
 	}
 
 }
