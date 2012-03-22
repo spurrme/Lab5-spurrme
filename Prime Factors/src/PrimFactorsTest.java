@@ -66,6 +66,10 @@ public class PrimFactorsTest {
 	public void testGenerateFour(){
 		assertEquals(list(2,3), Prime_Factors.generatePrime(4));
 	}
+	@Test
+	public void testGenerateFive(){
+		assertEquals(list(2,3), Prime_Factors.generatePrime(5));
+	}
 	private ArrayList<Integer> list(int... i) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for (Integer n : i) {
