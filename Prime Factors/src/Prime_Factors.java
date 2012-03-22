@@ -24,7 +24,9 @@ public class Prime_Factors {
 	public static ArrayList<Integer> generatePrime(int i) {
 		ArrayList<Integer> ret =  new ArrayList<Integer>();
 		if(i > 2){
-			ret.add(2);
+			for (int j = 2; j < i; j++) {
+				ret.add(j);
+			}
 		}
 		return ret;
 	}
