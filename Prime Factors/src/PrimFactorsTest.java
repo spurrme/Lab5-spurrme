@@ -19,6 +19,18 @@ public class PrimFactorsTest {
 	}
 	@Test
 	public void testOne(){
-		assertEquals(new ArrayList<Integer>(), Prime_Factors.getFactors(1));
+		assertEquals(list(), Prime_Factors.getFactors(1));
+	}
+	@Test
+	public void testTwo(){
+		assertEquals(list(2), Prime_Factors.getFactors(1));
+
+	}
+	private ArrayList<Integer> list(int... i) {
+		ArrayList<Integer> ret = new ArrayList<Integer>();
+		for (Integer n : i) {
+			ret.add(n);
+		}
+		return ret;
 	}
 }
