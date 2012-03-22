@@ -12,7 +12,7 @@ public class Prime_Factors {
 	public static ArrayList<Integer> getFactors(int i) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		if(i > 1){
-			ret.add(2);
+			ret.add(i);
 		}
 		return ret;
 	}
