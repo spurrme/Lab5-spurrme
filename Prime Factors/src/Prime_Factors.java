@@ -22,7 +22,11 @@ public class Prime_Factors {
 	}
 
 	public static ArrayList<Integer> generatePrime(int i) {
-		return new ArrayList<Integer>();
+		ArrayList<Integer> ret =  new ArrayList<Integer>();
+		if(i > 2){
+			ret.add(2);
+		}
+		return ret;
 	}
 
 }
