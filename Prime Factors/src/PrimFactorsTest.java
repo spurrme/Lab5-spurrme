@@ -70,6 +70,10 @@ public class PrimFactorsTest {
 	public void testGenerateFive(){
 		assertEquals(list(2,3), Prime_Factors.generatePrime(5));
 	}
+	@Test
+	public void testGenerateThirteen(){
+		assertEquals(list(2,3,5,7,11), Prime_Factors.generatePrime(13));
+	}
 	private ArrayList<Integer> list(int... i) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for (Integer n : i) {

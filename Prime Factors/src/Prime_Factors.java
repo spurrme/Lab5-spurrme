@@ -35,15 +35,12 @@ public class Prime_Factors {
 	}
 
 	private static boolean testIsPrime(int j) {
-		for (int i = 2; i < j; i++) {
+		for (int i = 2; i < j; ++i) {
 			if(j%i == 0){
 				return false;
 			}
-			else{
-				return true;
-			}
 		}
-		return false;
+		return true;
 	}
 
 }
