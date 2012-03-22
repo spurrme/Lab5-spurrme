@@ -21,8 +21,8 @@ public class Prime_Factors {
 		return ret;
 	}
 
-	public static Object generatePrime(int i) {
-		return null;
+	public static ArrayList<Integer> generatePrime(int i) {
+		return new ArrayList<Integer>();
 	}
 
 }
